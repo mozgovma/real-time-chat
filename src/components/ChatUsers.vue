@@ -115,8 +115,8 @@ export default {
     "users chat chat"
     "users chat chat";
   height: 100%;
-  background-color: black; /* Черный фон для всего контейнера */
-  color: white; /* Белый текст для всего контейнера */
+  background-color: black;
+  color: white;
   border-top: 1px solid white;
 }
 
@@ -137,21 +137,21 @@ export default {
 
 .users { 
   grid-area: users;
-  background: black; /* Черный фон */
-  border-right: 1px solid white; /* Белая граница */
+  background: black;
+  border-right: 1px solid white;
   display: flex;
   flex-direction: column;
 }
 
 .chat {
   grid-area: chat;
-  background: black; /* Черный фон */
+  background: black;
 }
 
 .contact-list {
   flex: 1;
   overflow-y: auto;
-  border: 1px solid white; /* Белая граница */
+  border: 1px solid white;
 }
 
 .imgProfile {
@@ -164,46 +164,46 @@ export default {
 
 .contact {
   padding: 10px;
-  border-bottom: 1px solid #eee; /* Легкая разделительная линия между контактами */
+  border-bottom: 1px solid #eee;
   box-sizing: border-box;
-  color: white; /* Белый текст */
+  color: white;
 }
 
 .contact:hover {
-  background-color: #333; /* Темно-серый фон при наведении */
+  background-color: #333;
 }
 
 .contact:last-child {
-  border-bottom: none; /* Убирает нижнюю границу у последнего контакта */
+  border-bottom: none;
 }
 
 .user-list {
-  overflow-y: auto; /* Вертикальная прокрутка при необходимости */
-  border: 1px solid white; /* Белая граница */
+  overflow-y: auto;
+  border: 1px solid white;
   height: 100px;
   width: 80%;
-  color: white; /* Белый текст */
+  color: white;
 }
 
 .user {
   padding: 10px;
-  border-bottom: 1px solid #eee; /* Легкая разделительная линия между пользователями */
+  border-bottom: 1px solid #eee;
   box-sizing: border-box;
 }
 
 .user:hover {
-  background-color: #333; /* Темно-серый фон при наведении */
+  background-color: #333;
 }
 
 .user:last-child {
-  border-bottom: none; /* Убирает нижнюю границу у последнего пользователя */
+  border-bottom: none;
 }
 
 .search-input {
   border-radius: 3px;
   border: 0;
-  background: #333; /* Темно-серый фон */
-  color: white; /* Белый текст */
+  background: #333;
+  color: white;
   outline: none;
   width: 80%;
   position: relative;
@@ -216,7 +216,7 @@ export default {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid white; /* Белая граница */
+  border-bottom: 1px solid white;
 }
 
 .inputSearch {
