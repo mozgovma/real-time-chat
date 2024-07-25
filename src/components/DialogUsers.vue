@@ -98,8 +98,8 @@ export default {
 .dialog {
   display: flex;
   flex-direction: column;
-  background-color: #000000; /* Черный фон */
-  color: #ffffff; /* Белый текст */
+  background-color: #000000;
+  color: #ffffff;
   padding: 14px;
   margin: 0 auto;
   height: calc(100% - 156.8px);
@@ -124,11 +124,11 @@ export default {
 }
 
 h3 {
-  color: #ffffff; /* Белый текст для заголовка */
+  color: #ffffff;
 }
 
 p {
-  color: #ffffff; /* Белый текст для параграфов */
+  color: #ffffff;
 }
 
 .message {
@@ -142,14 +142,14 @@ p {
 }
 
 .incoming {
-  background-color: #2c2c2c; /* Темно-серый фон для входящих сообщений */
-  color: #ffffff; /* Белый текст для входящих сообщений */
+  background-color: #2c2c2c;
+  color: #ffffff;
   align-self: flex-start;
 }
 
 .outgoing {
-  background-color: #4d4d4d; /* Светло-серый фон для исходящих сообщений */
-  color: #ffffff; /* Белый текст для исходящих сообщений */
+  background-color: #4d4d4d;
+  color: #ffffff;
   align-self: flex-end;
 }
 
@@ -165,8 +165,8 @@ input {
   padding: 8px;
   border-radius: 5px;
   border: none;
-  background-color: #333333; /* Темный фон для поля ввода */
-  color: #ffffff; /* Белый текст в поле ввода */
+  background-color: #333333;
+  color: #ffffff;
   margin-right: 10px;
 }
 
