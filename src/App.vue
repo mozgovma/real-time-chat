@@ -128,21 +128,21 @@ button {
 .chat { grid-area: chat; background:#2a4d75; }
 
 .contact-list {
-  height: 100%; /* Высота контейнера контактов */
-  overflow-y: scroll; /* Включить вертикальную прокрутку */
-  border: 1px solid #ccc; /* Добавить рамку для контейнера контактов */
+  height: 100%;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
 }
 
 .contact {
   padding: 10px;
-  border-bottom: 1px solid #eee; /* Добавить разделительную линию между контактами */
+  border-bottom: 1px solid #eee;
   box-sizing: border-box;
 }
 
 .contact:hover {
-  background-color: #f0f0f0; /* Изменение цвета фона при наведении */
+  background-color: #f0f0f0;
 }
 .contact:last-child {
-  border-bottom: none; /* Убрать разделительную линию у последнего контакта */
+  border-bottom: none;
 }
 </style>
